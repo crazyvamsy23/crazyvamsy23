@@ -1,6 +1,6 @@
 # Client acquisition and business automation repository catalog
 
-Research snapshot: 2026-11-24. 27 repositories and discovery collections. Links are public upstream resources; no project is installed, audited or forked by this catalog.
+Research snapshot: 2026-11-24. 42 repositories and discovery collections. Links are public upstream resources; no project is installed, audited or forked by this catalog.
 
 ## Original seven
 
@@ -54,3 +54,47 @@ n8n or Activepieces → Firecrawl or Crawl4AI → Twenty → Cal.diy → DocuSea
 ## Forking
 
 Open the fork links for repositories you want to maintain. A fork is not a deployment; some projects have commercial or hosting restrictions. No forks were created by this catalog.
+
+## Engineering and research expansion
+
+Selected public tools for scientific computing, chemical engineering, materials analytics, sustainability, geospatial workflows and reliable AI. Priorities are suggestions; no installation or validation is implied.
+
+### Plasma, chemical and process engineering
+
+- [Cantera](https://github.com/Cantera/cantera) — **Start first**. Chemical kinetics, thermodynamics and transport; build a reproducible reaction-kinetics benchmark. Non-equilibrium plasma models require appropriate mechanisms and independent validation. [Fork](https://github.com/Cantera/cantera/fork)
+- [IDAES](https://github.com/IDAES/idaes-pse) — **Start first**. Process modeling and optimization for energy and chemical systems; develop a transparent techno-economic screening model. [Fork](https://github.com/IDAES/idaes-pse/fork)
+- [DWSIM](https://github.com/DanWBR/dwsim) — **High**. Steady-state and dynamic process simulation; build a public demonstration flowsheet with sensitivity analysis. [Fork](https://github.com/DanWBR/dwsim/fork)
+- [OpenFOAM](https://github.com/OpenFOAM/OpenFOAM-dev) — **High**. Computational fluid dynamics; benchmark a microreactor or membrane transport case against an analytical solution or literature. [Fork](https://github.com/OpenFOAM/OpenFOAM-dev/fork)
+- [PyBaMM](https://github.com/pybamm-team/PyBaMM) — **Explore**. Physics-based battery modeling; optional adjacent specialization for energy materials. [Fork](https://github.com/pybamm-team/PyBaMM/fork)
+
+### Materials, semiconductor and industrial analytics
+
+- [pymatgen](https://github.com/materialsproject/pymatgen) — **High**. Crystal and molecular structure analysis; create a catalyst/materials screening notebook using public datasets. [Fork](https://github.com/materialsproject/pymatgen/fork)
+- [HyperSpy](https://github.com/hyperspy/hyperspy) — **Start first**. Multidimensional spectroscopy and microscopy analysis; create a reproducible public characterization-data pipeline. [Fork](https://github.com/hyperspy/hyperspy/fork)
+- [scikit-rf](https://github.com/scikit-rf/scikit-rf) — **Explore**. RF and microwave engineering; useful for S-parameter analysis and RF plasma instrumentation where relevant. [Fork](https://github.com/scikit-rf/scikit-rf/fork)
+- [scikit-learn](https://github.com/scikit-learn/scikit-learn) — **Start first**. Classical machine learning; build a process drift or equipment downtime analysis using synthetic or licensed public data. [Fork](https://github.com/scikit-learn/scikit-learn/fork)
+
+### Research management and sustainability
+
+- [eLabFTW](https://github.com/elabftw/elabftw) — **High**. Electronic lab notebook and research records; use for approved experiments and reproducible workflows. [Fork](https://github.com/elabftw/elabftw/fork)
+- [PyAlex](https://github.com/J535D165/pyalex) — **Start first**. OpenAlex research metadata interface; build a literature and technology landscape dashboard with DOI verification. [Fork](https://github.com/J535D165/pyalex/fork)
+- [Brightway](https://github.com/brightway-lca/brightway2) — **High**. Life-cycle assessment; model environmental impacts of alternative processes with transparent system boundaries and appropriately licensed inventory data. [Fork](https://github.com/brightway-lca/brightway2/fork)
+
+### Geospatial and engineering services
+
+- [OpenDroneMap](https://github.com/OpenDroneMap/ODM) — **High**. Photogrammetry and drone-image processing; demonstrate a non-survey-grade map or point cloud using sample imagery. [Fork](https://github.com/OpenDroneMap/ODM/fork)
+- [QGIS](https://github.com/qgis/QGIS) — **High**. GIS analysis and visualization; build a public environmental or infrastructure mapping demonstration. [Fork](https://github.com/qgis/QGIS/fork)
+
+### AI product reliability
+
+- [Promptfoo](https://github.com/promptfoo/promptfoo) — **Start first**. Evaluate prompts and LLM workflows, including adversarial tests; use synthetic examples, inspect telemetry and hosted-service settings before any private data is sent. [Fork](https://github.com/promptfoo/promptfoo/fork)
+
+### Suggested public portfolio projects
+
+- Reproducible reaction kinetics and process-economic screening with Cantera and IDAES.
+- Synthetic process analytics and characterization with scikit-learn and HyperSpy.
+- Research metadata discovery using PyAlex, with original-source citation checks.
+- Public sample imagery mapping with ODM and QGIS, without regulated surveying claims.
+- AI reliability test suite using Promptfoo and deterministic tests with synthetic data.
+
+Build original demos rather than accumulating forks. Use public or appropriately licensed data, respect confidentiality and obtain professional review where necessary.
